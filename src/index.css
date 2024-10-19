@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pointer-events-none {
+  pointer-events: none;
+}
+
+/* Custom text selection color */
+::selection {
+  background-color: rgba(234, 88, 12, 0.5); /* Change this to your secondary color */
+  color: white; /* Change this if you want a different text color */
+}
+
+::-moz-selection { /* For Firefox */
+  background-color: rgba(234, 88, 12, 0.5); /* Change this to your secondary color */
+  color: white; /* Change this if you want a different text color */
+}
